@@ -140,22 +140,6 @@ p {
     background-color: #149DDD;
 }
 
-div{
-    animation-name: myAni;
-    animation-timing-function: ease;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-} 
-
-@keyframes myAni{
-    0%{
-        transform: translate(-100px,-100px);
-    }
-    100%{
-        transform: translate(0px,0px);
-    }
-}
-
 div {
     display: block;
 }
